@@ -359,6 +359,17 @@ export default async function MemberProfilePage({ params }: Props) {
                     <Image src="/icons/github.svg" alt="GitHub" width={18} height={18} className="invert" />
                   </a>
                 )}
+                {meta.website && (
+                  <a
+                    href={meta.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={tProfile('profile.website')}
+                    className="opacity-60 transition-opacity hover:opacity-100"
+                  >
+                    <ExternalLink size={18} />
+                  </a>
+                )}
               </div>
             </div>
           </div>

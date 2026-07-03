@@ -94,6 +94,7 @@ export interface PersonMeta {
   twitter: string;
   linkedin: string;
   github?: string;
+  website?: string;
   is_oss_contributor: boolean;
   is_donor: boolean;
   donor_since?: string;

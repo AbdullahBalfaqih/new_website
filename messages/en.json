@@ -316,7 +316,8 @@
       "mentored": "Mentored",
       "ctfAuthor": "CTF Challenge Author",
       "ctfAuthorSubtitle": "Security puzzles and traps they engineered for the community",
-      "ctfAuthored": "Challenges Built"
+      "ctfAuthored": "Challenges Built",
+      "website": "Personal Website"
     }
   },
   "partners": {
@@ -749,7 +750,7 @@
       "title": "Developer Relations Engineer & PhD candidate in ZK",
       "bio": "Developer Relations Engineer at zkVerify and Horizen, and a PhD candidate specialising in Zero Knowledge Proofs. With over 8 years of experience as a developer and working in Web3 since 2018, she crafts developer-first content, tutorials, and workshops that make ZK approachable and practical for builders."
     },
-    "al-qaqaa": {
+    "al-qaqa": {
       "name": "Al-Qa'qa'",
       "title": "Web3 Security Researcher",
       "bio": "EVM smart contract auditor and Web3 security researcher who secures smart contracts to avoid loss of funds."
@@ -1289,6 +1290,11 @@
       "name": "Sherief Elhamy",
       "title": "",
       "bio": ""
+    },
+    "sharif-elfouly": {
+      "name": "Sharif Elfouly",
+      "title": "Founding Engineer at Merit Systems",
+      "bio": "Founding engineer at Merit Systems, previously a machine learning engineer. Built and secured smart contracts protecting over $1B in value, with experience spanning Venice AI, DYAD, EnBW Energie, and vialytics."
     },
     "doaa-karem": {
       "name": "Doaa Karem",

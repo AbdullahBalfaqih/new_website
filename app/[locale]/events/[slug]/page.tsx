@@ -772,6 +772,7 @@ export default async function EventDetailPage({ params }: Props) {
             accent="var(--color-cat-donor)"
             people={donors}
             locale={locale}
+            profileBasePath="members"
           />
         </div>
       )}
