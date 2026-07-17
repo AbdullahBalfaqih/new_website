@@ -21,7 +21,7 @@
     "cairo"
   ],
   "speakers": ["mohamed-abumuslim", "frank-castle", "al-qaqa"],
-  "mentors": ["yehia-tarek", "eman-herawy", "nour-elden-nader", "janna-elsheshtawy"],
+  "mentors": ["yehia-tarek", "eman-herawy", "nour-elden-nader", "janna-elsheshtawy", "tasneem-toolba"],
   "contributors": [
     {
       "slug": "eman-herawy",
@@ -55,6 +55,18 @@
       "slug": "sherief-elhamy",
       "role_key": "volunteer"
     },
+    {
+      "slug": "tasneem-toolba",
+      "role_key": "volunteer"
+    },
+    {
+      "slug": "ahmed-fouad",
+      "role_key": "volunteer"
+    },
+    {
+      "slug": "kamal-yasser",
+      "role_key": "volunteer"
+    },
     { "slug": "doaa-karem",     "role_key": "ctf-author" },
     { "slug": "ahmad-alaa",     "role_key": "ctf-author" },
     { "slug": "rahma-mohamed",  "role_key": "ctf-author" },
@@ -70,5 +82,5 @@
     { "slug": "al-qaqa",       "track_key": "evm" },
     { "slug": "frank-castle",   "track_key": "solana" }
   ],
-  "donors": ["sharif-elfouly", "al-qaqa"]
+  "donors": ["frank-castle", "al-qaqa"]
 }

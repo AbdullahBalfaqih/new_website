@@ -3,5 +3,6 @@
   "twitter": "0xcastle_chain",
   "linkedin": "",
   "is_oss_contributor": false,
-  "is_donor": false
+  "is_donor": true,
+  "donor_since": "2026"
 }

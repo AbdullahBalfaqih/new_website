@@ -15,6 +15,7 @@ const SUPPORTERS = [
   { name: 'Cartesi',          logo: 'https://res.cloudinary.com/dcig9rsj0/image/upload/v1780236124/36a6c43523ed48fb99de8b493d06b870_wpem4o.png' },
   { name: 'Storj Institute',  logo: 'https://res.cloudinary.com/dcig9rsj0/image/upload/v1780236185/MvF5Dsk5_400x400_nadij9.jpg' },
   { name: 'PizzaDAO',         logo: 'https://res.cloudinary.com/dcig9rsj0/image/upload/v1780236205/Qmat9XV3y8UfFPixgyUkxNW6dLtyuzVhnnh95jVAN8Bqfh_bbcvbd.png' },
+  { name: 'OKX',              logo: 'https://res.cloudinary.com/dcig9rsj0/image/upload/v1784303504/120148534_egx8qt.png' },
 ] as const;
 
 const PARTNERS = [
