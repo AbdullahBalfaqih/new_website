@@ -383,6 +383,11 @@
       "description": "A mentorship program for Arab university students working on blockchain-based research or graduation projects. Selected teams received up to 5 direct office hours with expert mentors — with an extra 2-hour bonus for women-led or mixed-gender teams. This program is now closed.",
       "location": "Online"
     },
+    "hackathon-playbook-ethonline-2026": {
+      "title": "Hackathon Playbook: Everything You Need for ETHOnline",
+      "description": "An online session preparing developers for ETHOnline — covering hackathon fundamentals, idea selection, winning strategies, common pitfalls, prizes, and team building, with a live Q&A to close things out.",
+      "location": "Online (Google Meet)"
+    },
     "0xcairo-iii-security-day-2026": {
       "title": "0xCairo III: Security Day",
       "description": "A full-day security event with hands-on EVM and Solana auditing workshops, an Agentic AI Security track, and Cairo's first live Web3 CTF (Capture The Flag) competition. Limited seats — workshops and CTF available separately.",
