@@ -10,18 +10,19 @@ export function LanguageProvider({ children }) {
   const [lang, setLang] = useState("ar");
 
   useEffect(() => {
-    // Determine initial language from localStorage or default to 'ar'
-    const storedLang = localStorage.getItem("language");
+    const storedLang = typeof window !== "undefined" ? localStorage.getItem("language") : null;
     if (storedLang && (storedLang === "ar" || storedLang === "en")) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setLang(storedLang);
     }
   }, []);
 
   useEffect(() => {
-    // Update document dir and lang on language change
-    document.documentElement.lang = lang;
-    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
-    localStorage.setItem("language", lang);
+    if (typeof window !== "undefined") {
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+      localStorage.setItem("language", lang);
+    }
   }, [lang]);
 
   const toggleLanguage = () => {
@@ -34,7 +35,7 @@ export function LanguageProvider({ children }) {
     let value = dictionary;
     for (const k of keys) {
       if (value[k] === undefined) {
-        return key; // return key if not found
+        return key;
       }
       value = value[k];
     }
